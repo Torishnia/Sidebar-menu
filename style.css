@@ -254,6 +254,7 @@
   height: 100vh;
   left: 260px;
   width: calc(100% - 260px);
+  min-width: 290px;
   transition: all 0.5s ease;
 }
 
@@ -263,9 +264,10 @@
 }
 
 .home-section .home-content {
-  height: 60px;
+  height: 80px;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .home-section .home-content .bx-menu,
@@ -282,4 +284,9 @@
 .home-section .home-content .text {
   font-size: 26px;
   font-weight: 600;
+  max-width: 260px;
+  width: 100%;
+  min-width: 180px;
+  box-sizing: border-box;
+  margin-right: 10px;
 }
